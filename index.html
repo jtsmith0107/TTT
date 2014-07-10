@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Tic Tac Toe </title>
+  <link rel = "stylesheet" href = "ttt.css">
+  <script src = "jquery.js"></script>
+  <script src = "underscore.js"></script>
+  <script src = "ticTacToe.js"></script>
+  <script src = "ttt_ui.js"></script>
+  
+</head>
+<body>
+  <h1>Welcome to Tic Tac Toe!</h1>
+  
+  <div id = "board"></div>
+  <script type="text/javascript">
+  $(function(){
+    var tttui = new TTT.TTTUI($('#board'));
+    tttui.setUpBoard();
+    tttui.setUpHandlers();
+  })
+  </script>
+  
+</body>
+
+</html>

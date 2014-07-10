@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#board {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  outline: black 5px solid;
+}
+
+.row {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  outline: black 1px solid;
+  display: inline-block;
+  font-size: 50px;
+  line-height: 100px;
+  align-text: center;
+  vertical-align: middle;
+}
